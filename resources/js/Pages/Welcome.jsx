@@ -48,7 +48,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                     </Link>
                                 ) : (
                                     <>
-                                        <HomeNavLink href={route("hello1")}> Hello </HomeNavLink>
+                                        <HomeNavLink href={route("hello")}> Hello </HomeNavLink>
                                         <HomeNavLink href={route("login")}> Log in </HomeNavLink>
                                         <HomeNavLink href={route("register")}> Register </HomeNavLink>
                                     </>
