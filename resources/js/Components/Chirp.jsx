@@ -33,8 +33,7 @@ export default function Chirp({ chirp }) {
                     {chirp.message}
                 </p>
                 <span className="mt-2 text-gray-600 hover:text-white cursor-pointer">
-                    {" "}
-                    Delete{" "}
+                    Delete
                 </span>
             </div>
         </div>
